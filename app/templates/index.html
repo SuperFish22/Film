@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека Фильмов</title>
+</head>
+<body>
+    <h1>Это коллекция фильмов</h1>
+    <ul>
+    {% for film in film_list%}
+        <a href="/fi/{{film[0]}}">
+            <h1>{{film[1]}}</h1>
+            <h2>Описание фильма</h2>
+            <p>{{film[3]}}</p>
+        </div>
+    </a>
+    <div>
+    {% endfor%}   
+    
+    </ul>
+</body>
+</html>
